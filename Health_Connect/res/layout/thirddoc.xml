@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/tab">
+
+        <EditText
+            android:id="@+id/lic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/startdate"
+            android:layout_below="@+id/startdate"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Medical School"/>
+
+        <TextView
+            android:id="@+id/pname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/pic"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="26dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/startdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/spec"
+            android:layout_below="@+id/spec"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:hint="Year started Practice"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lic"
+            android:layout_below="@+id/lic"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:hint="Primary Speciality" />
+
+        <EditText
+            android:id="@+id/spec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/email"
+            android:layout_below="@+id/email"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:hint="Address" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pic"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:ems="10"
+            android:hint="License No." />
+
+        <EditText
+            android:id="@+id/degree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/school"
+            android:layout_below="@+id/school"
+            android:layout_marginTop="19dp"
+            android:ems="10"
+            android:hint="Degree" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/degree"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/next_button"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/pic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/button1"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/process3" />
+
+    </RelativeLayout>
+
+</ScrollView>

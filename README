@@ -1,0 +1,15 @@
+# Aman Arora
+------------------------------- Health Connect ---------------------
+
+An android app powered by CloudGust.
+Developed under the course SSAD & Project 2013.
+Startup : CloudGust
+
+Idea : 
+	Its an app to help communications between patients and doctors. 
+	Both Patients and Doctors can register themselves.
+	Every Patient can enter his medical details and also upload his reports.
+	By doing this he always has access to them. Storage is on cloud server.
+	Patient can also search doctors, can view their profile and add them.
+	Doctors added by any patient can view the medical details as well as his reports.
+	There also exists a message service where patient can ask for advice and doctor can help him.

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+       android:background="@drawable/back1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout
+    android:id="@+id/UPLOAD"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+  
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+                  	 <TextView
+                  	     android:id="@+id/pname"
+                  	     android:layout_width="wrap_content"
+                  	     android:layout_height="wrap_content"
+                  	     android:layout_marginTop="15dp"
+                  	     android:text="Records"
+                  	     android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                  	 <EditText
+                  	     android:id="@+id/head"
+                  	     android:layout_width="wrap_content"
+                  	     android:layout_height="wrap_content"
+                  	     android:ems="10"
+                  	     android:hint="Enter Heading" >
+
+                  	     <requestFocus />
+                  	 </EditText>
+
+                  	 <EditText
+                  	     android:id="@+id/sub"
+                  	     android:layout_width="wrap_content"
+                  	     android:layout_height="wrap_content"
+                  	     android:ems="10"
+                  	     android:hint="Subject" />
+
+                    <TextView
+                        android:id="@+id/pht"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Upload" />
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Browse" />
+
+                    <TextView
+                        android:id="@+id/pbg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Path" />
+
+                    <Button
+                        android:id="@+id/cht"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Done" />
+
+                </LinearLayout>    
+</ScrollView>
+</LinearLayout>

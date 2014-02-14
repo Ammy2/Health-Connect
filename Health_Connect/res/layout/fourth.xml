@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tab"
+    >
+
+    <Button
+        android:id="@+id/btnSelectPhoto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="2dp"
+        android:text="Browse Profile Picture" />
+
+    <ImageView
+        android:id="@+id/ppic"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_below="@+id/btnSelectPhoto"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/camera" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ppic"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/proceedbutton"
+        android:text="" />
+
+    <Button
+        android:id="@+id/skip"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/done"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/skip_button"
+        android:layout_marginTop="10dp"
+        android:text="" />
+
+</RelativeLayout>
